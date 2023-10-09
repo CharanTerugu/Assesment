@@ -1,0 +1,33 @@
+package com.Rest.demo.service.serviceimplementation;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.Rest.demo.entity.User;
+import com.Rest.demo.service.UserService;
+@Service
+public class UserServiceImpl implements UserService{
+
+	List<User> users=new ArrayList<>();
+	
+	@Override
+	public void create(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<User> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(String userName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

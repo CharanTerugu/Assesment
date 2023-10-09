@@ -1,0 +1,7 @@
+package com.Rest.demo.service.serviceimplementation;
+
+import com.Rest.demo.service.UserService;
+
+public class UserServiceImpl implements UserService{
+
+}

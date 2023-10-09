@@ -1,0 +1,5 @@
+package com.Rest.demo.service;
+
+public interface UserService {
+
+}

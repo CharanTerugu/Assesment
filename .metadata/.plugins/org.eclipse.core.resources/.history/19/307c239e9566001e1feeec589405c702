@@ -1,0 +1,9 @@
+package com.Rest.demo.service.serviceimplementation;
+
+import org.springframework.stereotype.Service;
+
+import com.Rest.demo.service.UserService;
+@Service
+public class UserServiceImpl implements UserService{
+
+}
